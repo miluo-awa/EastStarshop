@@ -1,0 +1,16 @@
+name: StarShop
+version: 1.0.0
+main: com.mineplugin.starshop.StarShop
+api-version: 1.20
+authors: [YourName]
+description: 基于PlayerPoints的星币商店插件
+depend: [PlayerPoints]
+commands:
+  starpoints:
+    description: 打开星币商店
+    usage: /<command>
+    aliases: [sp]
+permissions:
+  starshop.admin:
+    description: 允许使用管理员配置命令
+    default: op
